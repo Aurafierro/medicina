@@ -8,11 +8,11 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.medicina</groupId>
-	<artifactId>practica</artifactId>
+	<groupId>com.adso</groupId>
+	<artifactId>SitioSalud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>practica</name>
-	<description>Registro de hospital</description>
+	<name>SitioSalud</name>
+	<description>SitioWebHospital</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -37,8 +37,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>

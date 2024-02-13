@@ -1,13 +1,13 @@
-package com.medicina.practica;
+package com.adso.SitioSalud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PracticaApplication {
+public class SitioSaludApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PracticaApplication.class, args);
+		SpringApplication.run(SitioSaludApplication.class, args);
 	}
 
 }
